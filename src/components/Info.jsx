@@ -2,8 +2,8 @@ import PropTypes from 'prop-types'
 
 function Info({ handleInfoClick, handleOutsideClick }) {
     return (
-        <div id="info" onClick={handleOutsideClick}>
-            <div id="content-with-border">
+        <div className='bg-gray-200' id="info" onClick={handleOutsideClick}>
+            <div id="content-with-border" className='bg-gray-200'>
                 <a onClick={handleInfoClick}>X</a>
                 <h1>Info</h1>
                 <ol>

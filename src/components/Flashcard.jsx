@@ -114,7 +114,7 @@ function Flashcard({ flashcards, timer, handleResultData }) {
           </div>
         </div>
       ) : !currentFlashcard ? (
-        <p id="no-flashcards">No flashcards found. We are working on it.</p>
+        <p id="no-flashcards">No quizes found. We are working on it.</p>
       ) : (
         result ? (
           <div id="timesUp">

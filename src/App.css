@@ -67,12 +67,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgba(58, 58, 38, 0.788);
+    background-color: rgba(215, 85, 255, 0.788);
     border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #3a3a26;
+    background-color: #e992cf;
 }
 
 ::-webkit-scrollbar-track {
@@ -100,8 +100,8 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
     font-size: medium;
-    background-color: #58584821;
-    color: #292916;
+    background-color: #e992cf;
+    color: #a63d98;
     padding: 5px 15px;
     border-radius: 6px;
 }
@@ -121,7 +121,7 @@ code {
 }
 
 #intro .theme-intruder {
-    text-shadow: 5px 5px 5px #fff000, -5px -5px 5px #fff000;
+    text-shadow: 5px 5px 5px #00e5ff, -5px -5px 5px #00e5ff;
 }
 
 #intro img {
@@ -132,7 +132,7 @@ code {
     font-size: 36px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
-    color: #3a3a26;
+    color: #a63d98;
     text-transform: uppercase;
 }
 
@@ -147,11 +147,11 @@ code {
     font-size: 22px;
     text-align: center;
     background-color: transparent;
-    color: #292916;
+    color: #a63d98;
     border: none;
     border-radius: 10px;
     font-family: 'Rowdies', sans-serif;
-    box-shadow: 0 0 1.5px #696938;
+    box-shadow: 0 0 1.5px #e992cf;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -171,7 +171,7 @@ code {
     box-sizing: border-box;
     height: auto;
     padding: 20px;
-    color: #3a3a26;
+    color: #a63d98;
     font-size: 25px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
@@ -190,7 +190,7 @@ code {
     flex-direction: column;
     box-sizing: border-box;
     height: auto;
-    color: #3a3a26;
+    color: #a63d98;
     font-size: 20px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
@@ -211,10 +211,10 @@ code {
     font-size: 18px;
     font-family: 'Rowdies', sans-serif;
     background-color: transparent;
-    color: #292916;
+    color: #a63d98;
     border: none;
     outline: none;
-    box-shadow: 0 0 1.5px #696938;
+    box-shadow: 0 0 1.5px #e992cf;
     border-radius: 10px;
     padding: 12px 4px;
     margin: 5px 0 10px 0;
@@ -223,12 +223,12 @@ code {
 #name-getter input:hover, 
 #name-getter input:focus, 
 #name-getter input:active {
-    outline: 3px solid #292916;
+    outline: 3px solid #a63d98;
 }
 
 #name-getter p {
     font-size: 15px;
-    color: #3a3a26;
+    color: #a63d98;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
     letter-spacing: normal;
@@ -253,19 +253,19 @@ code {
     font-size: 18px;
     font-family: 'Rowdies', sans-serif;
     background-color: transparent;
-    color: #3a3a26;
+    color: #a63d98;
     border: none;
     outline: none;
-    box-shadow: 0 0 1.5px #696938;
+    box-shadow: 0 0 1.5px #e992cf;
     cursor: pointer;
     border-radius: 10px;
 }
 
 #name-getter .submit-button:hover {
-    background-color: #292916;
+    background-color: #a63d98;
     color: #ffffff;
     border: none;
-    outline: 3px solid #292916;
+    outline: 3px solid #e992cf;
     transition: 0.1s;
 }
 
@@ -284,7 +284,7 @@ code {
 #name-getter .accounts .account-tags {
     position: relative;
     text-decoration: none;
-    color: #3a3a26;
+    color: #a63d98;
     font-family: 'Rowdies', sans-serif;
     font-size: 14px;
     cursor: pointer;
@@ -303,7 +303,7 @@ code {
     right: -10px;
     width: 20px;
     height: 20px;
-    background-color: #3a3a26;
+    background-color: #a63d98;
     color: #ffffff;
     border-radius: 50px;
     display: flex;
@@ -332,13 +332,13 @@ code {
     flex-direction: column;
     box-sizing: border-box;
     margin: 0;
-    border-top: 1px solid rgba(41, 41, 22, 0.1);
+    border-top: 1px solid rgba(255, 127, 255, 0.1);
     padding: 20px 0;
 }
 
 #name-getter .footer .terms-of-use {
     text-decoration: underline;
-    color: #3a3a26;
+    color: #a63d98;
     font-family: 'Rowdies', sans-serif;
     font-size: 16px;
     cursor: pointer;
@@ -346,7 +346,7 @@ code {
 }
 
 #name-getter .footer .terms-of-use:hover {
-    color: #292916;
+    color: #a63d98;
     transition: 0.1s;
 }
 
@@ -367,7 +367,7 @@ code {
 #login-footer p {
     padding: 0;
     margin: 0;
-    color: #3a3a26;
+    color: #a63d98;
     font-size: 16px;
     font-family: 'Rowdies', sans-serif;
 }
@@ -375,7 +375,7 @@ code {
 #login-footer span {
     padding: 0;
     margin: 0;
-    color: #22200bbb;
+    color: #a63d98;
     font-size: 14px;
     font-family: 'Rowdies', sans-serif;
 }
@@ -383,11 +383,11 @@ code {
 #login-footer span a {
     text-decoration: underline;
     cursor: pointer;
-    color: #696938;
+    color: #43013a;
 }
 
 #login-footer span a:hover {
-    color: #3a3a26;
+    color: #a63d98;
     transition: 0.5s;
 }
 
@@ -409,7 +409,7 @@ code {
         font-size: 28px;
         font-family: 'Rowdies', sans-serif;
         margin: 0;
-        color: #3a3a26;
+        color: #a63d98;
         text-transform: uppercase;
     }
 
@@ -513,10 +513,10 @@ code {
 #content {
     position: relative;
     margin-top: 30px;
-    background-color: #ffffff;
+    background-color: #fff0de;
     padding: 40px 100px;
     border-radius: 10px;
-    box-shadow: 0 0 3px #292916;
+    box-shadow: 0 0 3px #a63d98;
     overflow-y: auto;
     max-height: 80vh;
     max-width: 60vw;
@@ -525,10 +525,10 @@ code {
 #content-with-border {
     position: relative;
     margin-top: 30px;
-    background-color: #ffffff;
+    background-color: #fff0de;
     padding: 40px 20px;
     border-radius: 10px;
-    box-shadow: 0 0 3px #292916;
+    box-shadow: 0 0 3px #a63d98;
     overflow-y: auto;
 }
 
@@ -537,7 +537,7 @@ code {
     font-size: 30px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
-    color: #292916;
+    color: #a63d98;
     text-transform: uppercase;
     padding: 20px 0;
 }
@@ -546,7 +546,7 @@ code {
     font-size: 22px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
-    color: #292916;
+    color: #a63d98;
     padding: 20px 0 0 0;
 }
 
@@ -554,7 +554,7 @@ code {
     font-size: 20px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
-    color: #292916;
+    color: #a63d98;
     padding: 20px 0 0 0;
 }
 
@@ -562,7 +562,7 @@ code {
     font-size: 16px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
-    color: #292916;
+    color: #a63d98;
     padding: 20px 0 0 0;
 }
 
@@ -578,7 +578,7 @@ code {
 #content p {
     font-size: 16px;
     font-family: 'Rowdies', sans-serif;
-    color: #292916;
+    color: #a63d98;
     font-weight: 400;
     padding: 5px;
 }
@@ -587,7 +587,7 @@ code {
     margin: 10px 0;
     font-size: 18px;
     font-family: 'Rowdies', sans-serif;
-    color: #292916;
+    color: #a63d98;
     padding: 5px;
     font-weight: 400;
 }
@@ -596,8 +596,8 @@ code {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: #3a3a26;
-    color: #ffffff;
+    background-color: #a63d98;
+    color: #fff0de;
     padding: 6px 12px;
     border-radius: 50px 50px;
     text-decoration: none;
@@ -607,17 +607,17 @@ code {
 }
 
 #content .close:hover {
-    color: #ffffff;
-    background-color: #292916;
+    color: #fff0de;
+    background-color: #a63d98;
 }
 
 #content a {
     text-decoration: underline;
-    color: #3a3a26a4;
+    color: #a63d98;
 }
 
 #content a:hover {
-    color: #22200bbb;
+    color: #a63d98;
 }
 
 #content-with-border h1 {
@@ -625,7 +625,7 @@ code {
     font-size: 30px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
-    color: #292916;
+    color: #a63d98;
     text-transform: uppercase;
     padding: 20px 0;
 }
@@ -634,7 +634,7 @@ code {
     margin: 10px 0;
     font-size: 18px;
     font-family: 'Rowdies', sans-serif;
-    color: #292916;
+    color: #a63d98;
     padding: 5px;
 }
 
@@ -642,8 +642,8 @@ code {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: #3a3a26;
-    color: #ffffff;
+    background-color: #a63d98;
+    color: #fff0de;
     padding: 5px 10px;
     border-radius: 50px 50px;
     text-decoration: none;
@@ -653,7 +653,7 @@ code {
 }
 
 #content-with-border a:hover {
-    background-color: #292916;
+    background-color: #a63d98;
 }
 
 header {
@@ -661,27 +661,27 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #292916;
+    color: #a63d98;
     padding: 10px 30px;
-    border-bottom: 1px solid #69693846;
+    border-bottom: 1px solid #a63d98;
 }
 
 header h1 {
     font-size: 20px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
-    color: #3a3a26;
+    color: #a63d98;
     text-transform: uppercase;
 }
 
 header h1 a {
     text-decoration: none;
     cursor: pointer;
-    color: #3a3a26;
+    color: #a63d98;
 }
 
 header h1 .theme-intruder {
-    text-shadow: 5px 5px 5px #fff000, -5px -5px 5px #fff000;
+    text-shadow: 5px 5px 5px #00e5ff, -5px -5px 5px #00e5ff;
 }
 
 header img {
@@ -709,18 +709,18 @@ header li.margin-left {
 header li a {
     text-decoration: none;
     cursor: pointer;
-    color: #696938;
+    color: #a63d98;
 }
 
 header li a:hover {
-    color: #3a3a26;
+    color: #a63d98;
 }
 
 @media screen and (max-width: 992px) {
     header {
         justify-content: space-around;
         border-bottom: none;
-        box-shadow: 0 0 6px #69693846;
+        box-shadow: 0 0 6px #a63d98;
     }
 
     header img {
@@ -765,19 +765,19 @@ main {
     font-size: 20px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
-    color: #3a3a26;
+    color: #a63d98;
 }
 
 .heading-container h2 {
     font-size: 30px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
-    color: #3a3a26;
+    color: #a63d98;
 }
 
 .heading-container h5 {
     font-size: 25px;
-    color: #3a3a26;
+    color: #a63d98;
     font-family: 'Rowdies', sans-serif;
     place-self: center;
 }
@@ -785,8 +785,8 @@ main {
 .heading-container #timer {
     width: auto;
     font-size: 20px;
-    color: #ffffff;
-    background-color: #292916;
+    color: #fff0de;
+    background-color: #a63d98;
     border-radius: 10px;
     font-family: 'Rowdies', sans-serif;
     padding: 20px;
@@ -839,9 +839,9 @@ main {
     width: 300px;
     height: auto;
     min-height: 180px;
-    background-color: #ffffff;
+    background-color: #fff0de;
     border-radius: 10px;
-    box-shadow: 0 0 1.5px #696938;
+    box-shadow: 0 0 1.5px #a63d98;
     padding: 20px;
     transition: transform 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
     display: flex;
@@ -854,7 +854,7 @@ main {
 #topics .topic:hover {
     cursor: pointer;
     transform: translate(0, -5px);
-    outline: 2px solid #3a3a26;
+    outline: 2px solid #a63d98;
     transition: transform 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -900,9 +900,9 @@ main {
     height: auto;
     border-radius: 10px;
     transform: translateX(50% + 5px + 15px);
-    background-color: #ffffff;
-    outline: 1px solid #3a3a266e;
-    color: #3a3a26;
+    background-color: #fff0de;
+    outline: 1px solid #a63d98;
+    color: #a63d98;
     z-index: 3;
     display: flex;
     justify-content: center;
@@ -923,7 +923,7 @@ main {
     height: 0;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
-    border-top: 7px solid #3a3a26a4;
+    border-top: 7px solid #a63d98;
 }
 
 #topics .topic .tooltip.show {
@@ -979,9 +979,9 @@ main {
 #tag-container a {
     font-size: 16px;
     font-family: "Rowdies", sans-serif;
-    background-color: #ffffff;
+    background-color: #fff0de;
     border-radius: 50px;
-    color: #3a3a26;
+    color: #a63d98;
     padding: 3px 30px;
     cursor: pointer;
     text-decoration: none;
@@ -990,7 +990,7 @@ main {
 }
 
 #tag-container a:hover {
-    color: #292916;
+    color: #a63d98;
     transform: translateY(-2px);
 }
 
@@ -1007,7 +1007,7 @@ main {
     border-radius: 0 10px 0 10px;
     font-family: 'Rowdies', sans-serif;
     font-size: 20px;
-    color: #3a3a26;
+    color: #a63d98;
     z-index: 2;
 }
 
@@ -1056,7 +1056,7 @@ main {
 
 #flashcard h4 {
     font-size: 20px;
-    color: #292916;
+    color: #a63d98;
     font-family: 'Rowdies', sans-serif;
 }
 
@@ -1084,7 +1084,7 @@ main {
 
 #flashcard label {
     font-size: 18px;
-    color: #292916;
+    color: #a63d98;
     font-family: 'Rowdies', sans-serif;
     cursor: pointer;
 }
@@ -1105,8 +1105,8 @@ main {
 #controls button {
     font-size: 20px;
     font-family: 'Rowdies', sans-serif;
-    background-color: #ffffff;
-    color: #3a3a26;
+    background-color: #fff0de;
+    color: #a63d98;
     padding: 6px 12px;
     border-radius: 10px;
     cursor: pointer;
@@ -1132,8 +1132,8 @@ main {
 #no-flashcards {
     font-size: 20px;
     font-family: 'Rowdies', sans-serif;
-    color: #fff000;
-    background-color: #000FFF;
+    color: #00ffdd;
+    background-color: #00FFdd;
     border-radius: 10px;
     padding: 10px;
 }
@@ -1163,7 +1163,7 @@ main {
     height: auto;
     width: 40%;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: #fff0de;
     border-radius: 10px;
     box-shadow: 0 0 7px -5px #000;
     padding: 40px; 
@@ -1174,7 +1174,7 @@ main {
 
 #timeout-view h4 {
     font-size: 25px;
-    color: #292916;
+    color: #a63d98;
     font-family: 'Rowdies', sans-serif;
 }
 
@@ -1186,7 +1186,7 @@ main {
 
 #timeout-view table th {
     padding: 10px;
-    border-bottom: 1px solid rgba(41, 41, 22, 0.1);
+    border-bottom: 1px solid rgba(0, 118, 124, 0.1);
     text-align: center;
     font-size: 20px;
     font-family: 'Rowdies', sans-serif;
@@ -1194,8 +1194,8 @@ main {
 
 #timeout-view table td {
     padding: 10px;
-    border-right: 1px solid rgba(41, 41, 22, 0.1);
-    border-bottom: 1px solid rgba(41, 41, 22, 0.1);
+    border-right: 1px solid rgba(0, 118, 124, 0.1);
+    border-bottom: 1px solid rgba(0, 118, 124, 0.1);
     text-align: center;
     font-size: 20px;
     font-family: 'Rowdies', sans-serif;
@@ -1207,7 +1207,7 @@ main {
 }
 
 #timeout-view table td:first-child {
-    border-left: 1px solid rgba(41, 41, 22, 0.1);
+    border-left: 1px solid rgba(0, 118, 124, 0.1);
 }
 
 #timeout-view button {
@@ -1215,7 +1215,7 @@ main {
     font-size: 22px;
     font-family: 'Rowdies', sans-serif;
     background-color: transparent;
-    color: #292916;
+    color: #a63d98;
     border: none;
     outline: none;
     cursor: pointer;
@@ -1246,7 +1246,7 @@ main {
     height: auto;
     width: 60%;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: #fff0de;
     border-radius: 10px;
     box-shadow: 0 0 7px -5px #000;
     padding: 40px;
@@ -1260,14 +1260,14 @@ main {
     font-size: 40px;
     font-family: 'Rowdies', sans-serif;
     margin: 0;
-    color: #292916;
+    color: #a63d98;
     text-transform: uppercase;
     padding: 20px 0;
 }
 
 #result-view h4 {
     font-size: 25px;
-    color: #292916;
+    color: #a63d98;
     font-family: 'Rowdies', sans-serif;
 }
 
@@ -1279,7 +1279,7 @@ main {
 
 #result-view table th {
     padding: 10px;
-    border-bottom: 1px solid rgba(41, 41, 22, 0.1);
+    border-bottom: 1px solid rgba(0, 118, 124, 0.1);
     text-align: center;
     font-size: 20px;
     font-family: 'Rowdies', sans-serif;
@@ -1287,8 +1287,8 @@ main {
 
 #result-view table td {
     padding: 10px;
-    border-right: 1px solid rgba(41, 41, 22, 0.1);
-    border-bottom: 1px solid rgba(41, 41, 22, 0.1);
+    border-right: 1px solid rgba(0, 118, 124, 0.1);
+    border-bottom: 1px solid rgba(0, 118, 124, 0.1);
     text-align: center;
     font-size: 20px;
     font-family: 'Rowdies', sans-serif;
@@ -1300,7 +1300,7 @@ main {
 }
 
 #result-view table td:first-child {
-    border-left: 1px solid rgba(41, 41, 22, 0.1);
+    border-left: 1px solid rgba(0, 118, 124, 0.1);
 }
 
 #result-view button {
@@ -1308,7 +1308,7 @@ main {
     font-size: 22px;
     font-family: 'Rowdies', sans-serif;
     background-color: transparent;
-    color: #292916;
+    color: #a63d98;
     border: none;
     outline: none;
     cursor: pointer;
@@ -1359,7 +1359,7 @@ footer {
 footer p {
     padding: 0;
     margin: 0;
-    color: #3a3a26;
+    color: #a63d98;
     font-size: 16px;
     font-family: 'Rowdies', sans-serif;
 }
@@ -1367,7 +1367,7 @@ footer p {
 footer span {
     padding: 0;
     margin: 0;
-    color: #22200bbb;
+    color: #a63d98;
     font-size: 14px;
     font-family: 'Rowdies', sans-serif;
 }
@@ -1375,11 +1375,11 @@ footer span {
 footer span a {
     text-decoration: underline;
     cursor: pointer;
-    color: #696938;
+    color: #a63d98;
 }
 
 footer span a:hover {
-    color: #3a3a26;
+    color: #a63d98;
     transition: 0.5s;
 }
 
@@ -1389,7 +1389,7 @@ footer span a:hover {
 
 @media screen and (max-width: 992px) {
     footer {
-        border-top: 1px solid rgba(255, 238, 0, 0.1);
+        border-top: 1px solid rgba(199, 80, 36, 0.1);
     }
 }
 
@@ -1406,7 +1406,7 @@ footer span a:hover {
         box-sizing: border-box;
         height: auto;
         padding: 20px;
-        color: #3a3a26;
+        color: #a63d98;
         font-size: 25px;
         font-family: 'Rowdies', sans-serif;
     }

@@ -24,7 +24,7 @@ function Content({
 }) {
 
     // const gotoMyPortfolio = () => {
-    //     window.open("https://github.com/MaitisamY/", "_blank");
+    //     window.open("https://github.com/EmmanuellDev/", "_blank");
     // }
 
     return (
@@ -35,7 +35,7 @@ function Content({
                 )
             }
             <header>
-                <h1><a href="/">Flashcard <span className="theme-intruder">Q</span>uiz</a></h1>
+                <h1><a href="/">James <span className="theme-intruder">Q</span>uizz</a></h1>
                 <div></div>
               <ul>
                 { 
@@ -59,9 +59,9 @@ function Content({
                 {children && children}
             </main>
             <footer>
-                <p>&copy; {new Date().getFullYear()}, Flashcard Quiz</p>
+                <p>&copy; {new Date().getFullYear()}, James Quizz</p>
                 {/* <span>Made with ❤️ by 
-                    <a target="_blank" rel="noopener noreferrer" onClick={gotoMyPortfolio}> Aitisam Yaseen</a>
+                    <a target="_blank" rel="noopener noreferrer" onClick={gotoMyPortfolio}>Jai James</a>
                 </span> */}
             </footer>
         </>

@@ -37,7 +37,7 @@ function Login({
         <>
             <div id="login">
                 <div id="intro">
-                    <h1>Flashcard <span className="theme-intruder">Q</span>uiz</h1>
+                    <h1>James <span className="theme-intruder">Q</span>uizz</h1>
                 </div>
                 <div id="name-getter">
 
@@ -52,7 +52,7 @@ function Login({
                             name="name" 
                             value={user} 
                             onChange={handleUsenameChange}
-                            placeholder="E.g. John Doe"
+                            placeholder="E.g. Jai james"
                         />
                         {userNameError && <span id="name-error">{userNameError}</span>}
                         <button 
@@ -105,7 +105,7 @@ function Login({
                 )}
             </div>
             <div id="login-footer">
-                <p>© {new Date().getFullYear()}, Flashcard Quiz.</p>
+                <p>© {new Date().getFullYear()}, James Quizz.</p>
                 {/* <span>Made with ❤️ by 
                     <a target="_blank" rel="noopener noreferrer" onClick={gotoMyPortfolio}> Aitisam Yaseen</a>
                 </span> */}
